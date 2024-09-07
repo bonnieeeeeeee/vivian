@@ -1,0 +1,57 @@
+:root {
+    --cor-fundo: #ea8a61;        /* Cor de fundo */
+    --cor-principal: #0b0d20;    /* Cor principal da caixa */
+    --cor-secundaria: #1124b0;   /* Cor secundária dos botões */
+    --cor-destaque: #4efd2b;     /* Cor de destaque */
+    --cor-texto: #d7f9ff;        /* Cor do texto */
+  }
+  
+  body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Remover margens padrão */
+    font-family: 'Arial', sans-serif; /* Definir uma fonte padrão */
+  }
+  
+  .caixa-principal {
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+  }
+  
+  h1 {
+    color: var(--cor-destaque);
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    font-size: 2em; /* Tamanho do texto */
+  }
+  
+  .caixa-perguntas {
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Espaço abaixo da caixa de perguntas */
+  }
+  
+  button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 25px; /* Bordas mais arredondadas */
+    padding: 12px 25px; /* Padding mais equilibrado */
+    font-size: 1em; /* Tamanho do texto */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Adiciona uma transição suave para cor e escala */
+    margin: 5px; /* Espaço entre os botões */
+  }
+  
+  button:hover {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    tran
+  
